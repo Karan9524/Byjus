@@ -1,0 +1,221 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #800080e3;
+    /*border: 3px solid red;*/
+}
+.container .navbar{
+    height: 12vh;
+    width: 100%;
+    /*border: 3px solid red;*/
+    display: flex;
+    flex-direction: row;    
+}
+.navbar .first{
+    width: 25%;
+    /*border: 3px solid green;*/
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.first h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: 900;
+    padding-right: 10px;
+    font-family: Roboto,sans-serif;
+    cursor: pointer;
+}
+.navbar .second{
+    width: 75%;
+   /* border: 3px solid black;*/
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.second ul{
+    display: flex;
+    flex-direction: row;
+}
+.second ul li{
+    font-size: 1em;
+    margin-left: 30px;
+    list-style: none;
+}
+.second ul li a{
+    color: #f3a310;
+    text-decoration: none;
+}
+.second .btn{
+    background-color: transparent;
+    color: #f3a310;
+    border: 1px solid #f3a310;
+    cursor: pointer;
+    margin: 0px 15px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 1em;
+}
+.second .fa-solid{
+  
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #f3a310;
+    color: #800080e3;
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+.container .content{
+    height: 88vh;
+    width: 100%;
+    /*border: 3px solid red;*/
+    display: flex;
+    flex-direction: row;
+}
+.content .left{
+   width: 53%;
+   /*border: 3px solid blue;*/
+}
+.left img{
+    position: absolute;
+    bottom: 0px;
+   
+    margin-left: 70px;
+}
+.content .right{
+   width: 47%;
+  /* border: 3px solid yellow;*/
+   display: flex;
+   justify-content: center;
+}
+.right .box{
+    height: 74vh;
+    width: 78%;
+    margin: 40px 60px 0 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 25px;
+    font-family: Roboto,sans-serif;
+}
+.box h3{
+    font-size: 25px;
+    font-weight: lighter;
+}
+.box p{
+    padding: 15px;
+    font-size: small;
+    letter-spacing: 1px;
+    color: #8b8c89;
+}
+.box h4{
+    font-size: 19px;
+    font-weight: lighter;
+}
+.box fieldset{
+    border: 1px solid #8b8c89;
+    border-bottom: none;border-right: none;border-left: none;
+}
+.box .submit{
+    padding-top: 20px;
+}
+.box .submit input{
+    width: 49%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #8b8c89;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box .submit input:hover{
+    border: 1px solid #800080e3;
+}
+.box h5{
+    padding: 15px 0px 10px 0px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+.box .input1{
+    width: 94%;
+    padding: 10px;
+    margin-top: 9px;
+    border: 1px solid #8b8c89;
+    border-radius: 7px;
+    outline: none;
+}
+
+.box .input2{
+    width: 100%;
+    margin: 25px 0px 0px 5px;
+    text-align: left;
+    display: flex;
+}
+.box .input2 .i1{
+    width: 77%;
+    padding: 10px;
+    border: 1px solid #8b8c89;
+    border-bottom-left-radius: 7px;border-top-left-radius: 7px;
+    outline: none;
+}
+.box .input2 .i2{
+    padding: 10px;  
+    color: white;
+    background-color: rgb(10, 73, 247); 
+    border: none;
+    border-bottom-right-radius: 7px;border-top-right-radius: 7px;
+    border-top-left-radius: 2px;border-bottom-left-radius: 2px;
+}
+.box .input3{
+    width: 94%;
+    margin: 25px 12px 0px 4px;  
+    padding: 10px;
+    border: 1px solid #8b8c89;
+    border-radius: 7px;
+    outline: none;
+}
+.box select{
+    width: 98.5%;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #8b8c89;
+    cursor: pointer;
+    outline: none;
+}
+.box select option{
+    font-size: 19px;
+    color: #8b8c89;
+    padding: 2px 0px 2px 0px;
+}
+.box .con{
+    width: 99%;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgb(233, 113, 32);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.navbar .second .icon ul li{
+    color: green;
+    display: block;
+}
+.navbar .second .icon ul {
+    
+    display: block;
+}
